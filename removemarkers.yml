@@ -1,0 +1,10 @@
+name: "Remove Markers"
+sceneByFragment:
+    action: script
+    script:
+      - python
+      # use python3 instead if needed
+      - removemarkers.py
+      - query
+
+# Last Updated August 14, 2022
